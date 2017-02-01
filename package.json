@@ -1,0 +1,42 @@
+{
+  "name": "dittio-web-app",
+  "version": "1.0.0",
+  "description": "A platform for collaboration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "test",
+    "build": "webpack -w"
+  },
+  "author": "Matt Alecock, Edward Park",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.16.0",
+    "connect-redis": "^3.2.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.1",
+    "express-session": "^1.15.0",
+    "kue": "^0.11.5",
+    "morgan": "^1.7.0",
+    "pg": "^6.1.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "redis": "^2.6.5",
+    "redux": "^3.6.0",
+    "sendgrid": "^4.7.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "chai": "^3.5.0",
+    "enzyme": "^2.7.1",
+    "jsdom": "^9.9.1",
+    "mocha": "^3.2.0",
+    "redux-thunk": "^2.2.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-middleware": "^1.9.0",
+    "webpack-hot-middleware": "^2.16.1"
+  }
+}
